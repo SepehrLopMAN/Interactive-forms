@@ -1,0 +1,22 @@
+.form-control {
+  width: 100%;
+  padding: 0.375em 1rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+.form-control__label {
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 0.125em;
+}
+
+.form-control__input {
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  border: 1px solid white;
+  padding: 1rem;
+  display: inline-block;
+  width: calc(100% - 2rem - 2px);
+}
